@@ -1,5 +1,4 @@
 ##CodeBook
-=======================================================================================
 
 In a general way, the following steps were performed to get tidy data:
 - getting the subjects' identification: files **subject_train.txt** and **subject_test.txt**;

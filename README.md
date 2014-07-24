@@ -1,5 +1,4 @@
 ##Getting and Cleaning Data - Course Project
-=======================================================================================
 
 This repository contains the material required for peer reviewing. The main goal was to make tidy the data obtained from **Human Activity Recognition Using Smartphones Dataset**.
 
