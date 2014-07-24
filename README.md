@@ -4,10 +4,13 @@ This repository contains the material required for peer reviewing. The main goal
 
 All the code needed for the tidying task is included in the **run_analysis.R** script. Each step is fully commented in order to make easy the code understanding.
 
-In a general way, the following steps were performed:
+The resulting tidy dataset is also included in this repo (**tidy_data.txt**).
+
+In a general way, the following steps were performed to get tidy data:
 - getting the subjects' identification: files **subject_train.txt** and **subject_test.txt**;
 - getting the training and test sets with meaningful names of variables: files **features.txt**, **X_train.txt**, and **X_test.txt**;
 - associating activities to each observation: files **y_train.txt** and **y_test.txt**;
 - merging files in an only data frame;
 - extracting only the measurements on the mean and standard deviation;
-- grouping data by **subject** and **activity** to estimate the mean of the selected measurements.
+- grouping data by **subject** and **activity** to estimate the mean of the selected measurements;
+- saving the **tidy_data.txt** file.
