@@ -131,8 +131,9 @@ colnames(tidy_data)<-c(names(tidy_data[,1:3]),
                        sapply(names(tidy_data[,4:ncol(tidy_data)]),
                         paste2<-function(x) paste(x,"_avg",sep="")))
 
+# write the tidy data in a file
 write.table(tidy_data,file="tidy_data.txt")
 
-# checking
-#rm(list = ls(all = TRUE))
-#Check<-read.table(file="tidy_data.txt")
+# You can check the success of this script by running the code below and verifying the "check" data frame
+# rm(list = ls(all = TRUE))
+# check<-read.table(file="tidy_data.txt")
